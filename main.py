@@ -2,8 +2,9 @@
 import sea_level_predictor
 from unittest import main
 
-# Test your function by calling it here
-sea_level_predictor.draw_plot()
+# Exécuter la fonction principale (modifie ici si le nom est différent)
+sea_level_predictor.predict_sea_level()  
 
-# Run unit tests automatically
-main(module='test_module', exit=False)
+# Exécuter les tests unitaires
+if __name__ == "__main__":
+    main(module='test_module', exit=False)
