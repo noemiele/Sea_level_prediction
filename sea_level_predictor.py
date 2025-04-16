@@ -8,7 +8,6 @@ def draw_plot():
 
     # Create scatter plot
 
-
     # Create first line of best fit
 
 
